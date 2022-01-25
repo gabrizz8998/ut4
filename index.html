@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Examen UT02B - 2º DAW</title>
+	<link rel="stylesheet" href="styles/reset.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="styles/style.css">
+	<script src="libs/jquery-3.1.1.slim.min.js" type="text/javascript"></script> 
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#arrow').on('click', function() {
+				$('aside').toggleClass('plegado');
+			});
+		});
+	</script>
+
+	<style>
+		
+	</style>
+
+</head>
+
+<body>
+	<header>
+		<span>BENAVENTE</span>
+	</header>
+
+	<main>
+		<div class="poi">
+			<div class="zoom">
+				<figure>
+					<img src="images/mirador.jpg" alt="Mirador de La Mota" />
+				</figure>
+				<div class="txt">
+					<h1>Mirador de La Mota</h1>
+					<p>
+						Benavente se encuentra situada en lo alto de un cerro, desde el que se domina la ...
+					</p>
+					<span>
+						16 lo guardaron
+					</span>
+				</div>
+			</div>
+			<div class="sobre">
+				<span>Mirador de La Mota</span>
+			</div>
+		</div>
+
+		<div class="poi">
+			<div class="zoom">
+				<figure>
+					<img src="images/hospital_piedad.jpg" alt="Hospital de La Piedad" />
+				</figure>
+				<div class="txt">
+					<h1>Hospital de la Piedad</h1>
+					<p>
+						Este antiguo hospital de peregrinos ocupa toda una manzana entre las calles...
+					</p>
+					<span>
+						11 lo guardaron
+					</span>
+				</div>
+			</div>
+			<div class="sobre">
+				<span>Hospital de La Piedad</span>
+			</div>
+		</div>
+
+		<div class="poi">
+			<div class="zoom">
+				<figure>
+					<img src="images/parque_pradera.jpg" alt="Parque de la Pradera" />
+				</figure>
+				<div class="txt">
+					<h1>Parque de la Pradera</h1>
+					<p>
+						Este parque se encuentra en la zona baja de la ciudad en la ribera del río, entre las...
+					</p>
+					<span>
+						13 lo guardaron
+					</span>
+				</div>
+			</div>
+			<div class="sobre">
+				<span>Parque de la Pradera</span>
+			</div>
+		</div>
+
+		<div class="poi">
+			<div class="zoom">
+				<figure>
+					<img src="images/caracol.jpg" alt="Torre del Caracol" />
+				</figure>
+				<div class="txt">
+					<h1>Torre del Caracol</h1>
+					<p>
+						La Torre del Caracol es cuanto queda de lo que fue el inmenso y lujoso castillo, Palacio de...
+					</p>
+					<span>
+						20 lo guardaron
+					</span>
+				</div>
+			</div>
+			<div class="sobre">
+				<span>Torre del Caracol</span>
+			</div>
+		</div>
+	</main>
+
+	<aside>
+		<h1>
+			BENAVENTE
+		</h1>
+		<nav>
+			<ul>
+				<li class="selected">
+					<span>Turismo</span>
+					<span>en Benavente</span>
+					<span class="num">
+						50
+					</span>
+				</li>
+				<li>
+					<span>Hoteles</span>
+					<span>en Benavente</span>
+					<span class="num">
+						7
+					</span>					
+				</li>
+				<li>
+					<span>Qué ver</span>
+					<span>en Benavente</span>
+					<span class="num">
+						33
+					</span>
+				</li>
+				<li>
+					<span>Restaurantes</span>
+					<span>en Benavente</span>
+					<span class="num">
+						10
+					</span>
+				</li>
+				<li>
+					<span>Fotos</span>
+					<span>de Benavente</span>
+					<span class="num">
+						402
+					</span>
+				</li>
+			</ul>
+		</nav>
+		<a id="arrow" href="#">
+		</a>
+
+	</aside>
+</body>
+
+</html>
